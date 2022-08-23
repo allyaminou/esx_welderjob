@@ -24,7 +24,7 @@ Config.Device = {
 
 for i=1, #Config.Device, 1 do
 
-	Config.Zones['Uredjaj' .. i] = {
+	Config.Zones['Device' .. i] = {
 		Pos   = Config.Device[i],
 		Size  = {x = 1.5, y = 1.5, z = 1.0},
 		Color = {r = 255, g = 165, b = 0},
